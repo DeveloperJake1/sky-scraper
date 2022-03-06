@@ -32,6 +32,7 @@ functions.getProfile = (user) =>
      );
 };
 
+
 functions.getProfile = (user) => {
      return sanityClient.fetch(
        `*[_type == "user" && username == $username]{

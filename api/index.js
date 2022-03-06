@@ -82,6 +82,8 @@ app.post("/updateProfile", upload.single("file"), (req, res) => {
      ).then((data) => res.json(data));
    });
 
+
+
 app.post("/addFollower", (req, res) => {
 const body = req.body;
 addFollower(body.user, body.id).then((data) => res.json(data));
