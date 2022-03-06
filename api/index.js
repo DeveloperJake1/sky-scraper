@@ -29,6 +29,9 @@ var storage = multer.diskStorage({
 });
 var upload = multer({storage: storage});
 
+app.get('/', function (req, res) {
+     res.render('index', {});
+   });
 
 app.post("/createUser", (req, res) => {
      const body = req.body;
