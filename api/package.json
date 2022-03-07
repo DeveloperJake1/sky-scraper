@@ -2,7 +2,7 @@
   "name": "api",
   "version": "1.0.0",
   "description": "Sky Scraper Community",
-  "main": "index.js",
+  "main": "api/index.js",
   "type": "module",
   "engines": {
     "node": "14.x"
