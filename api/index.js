@@ -97,5 +97,4 @@ const body = req.body;
 removeFollower(body.user, body.id).then((data) => res.json(data));
 });
 
-
 app.listen(process.env.PORT || 3001);
