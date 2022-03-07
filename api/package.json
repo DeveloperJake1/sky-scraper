@@ -2,10 +2,13 @@
   "name": "api",
   "version": "1.0.0",
   "description": "Sky Scraper Community",
-  "main": "index.js",
+  "main": "api/index.js",
   "type": "module",
+  "engines": {
+    "node": "^17.5.0"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node api/index.js"
   },
   "author": "",
   "license": "ISC",
