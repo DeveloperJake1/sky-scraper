@@ -6,6 +6,9 @@
   "main": "package.json",
   "author": "Developer Jake <soulringshallcome@gmail.com>",
   "license": "UNLICENSED",
+  "engines": {
+    "node": "17.5.0"
+  },
   "scripts": {
     "start": "sanity start",
     "build": "sanity build"
