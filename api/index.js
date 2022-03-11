@@ -93,4 +93,4 @@ app.delete("/removeFollower", (req, res) => {
   removeFollower(body.user, body.id).then((data) => res.json(data));
 });
 
-app.listen(3001, () => console.log("started"));
+app.listen(3001, () => console.log("started api"));
