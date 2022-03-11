@@ -10,7 +10,7 @@
     "node": "17.5.0"
   },
   "scripts": {
-    "start": "sanity start",
+    "start": "cd database && sanity start",
     "build": "cd database && sanity build"
   },
   "keywords": [
