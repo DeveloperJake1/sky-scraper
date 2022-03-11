@@ -10,9 +10,10 @@
     "node": "17.5.0"
   },
   "scripts": {
-    "start": "cd database && sanity start",
-    "build": "cd database && sanity build"
+    "start": "cd api && node index.js",
+    "heroku-postbuild": "cd frontend && npm start"
   },
+
   "keywords": [
     "sanity"
   ],
