@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "cd api && node index.js &",
-    "heroku-postbuild": "cd frontend && npm start &"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"  
   },
   "keywords": [
     "sanity"
